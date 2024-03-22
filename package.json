@@ -5,6 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod-env":"npx cypress open --config-file prod.config.js",
+    "test-env":"npx cypress open --config-file test.config.js",
     "video-run": "npx cypress run --spec cypress/e2e/CypressTestCases_STL/AT08_CallUrlFromCypressConfig.cy.js --config-file prod.config.js"
   },
   "author": "",
