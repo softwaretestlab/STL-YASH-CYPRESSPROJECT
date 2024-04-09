@@ -1,4 +1,4 @@
-name: End-to-end tests
+name: Regression tests
 on: push
 jobs:
   cypress-run:
@@ -11,4 +11,4 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-            command: npx cypress run --spec /cypress/e2e/CypressTestCases_STL/AT02_NavWebsite.cy.js
+         command: npm run RunSpecificTest:TestName
