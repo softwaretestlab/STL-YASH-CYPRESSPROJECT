@@ -11,4 +11,4 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-            command: npm run RunSpecificTest:AT02_NavWebsite.cy.js
+            command: npm run CypressTestCases_STL:AT02_NavWebsite.cy.js
