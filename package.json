@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "RunSpecificTest:TestName": "npx cypress run --headed --spec cypress/e2e/CypressTestCases_STL/AT02_NavWebsite.cy.js --browser chrome",
-    "RunInChrome:TestName": "npx cypress run --headed --spec cypress/e2e/CypressTestCases_STL/AT02_NavWebsite.cy.js --browser chrome",
+    "RunInChrome:TestName": "npx cypress run --headed --spec cypress/e2e/CypressTestCases_STL/AT02_NavWebsite.cy.js",
         "test": "echo \"Error: no test specified\" && exit 1",
     "prod-env": "npx cypress open --config-file prod.config.js",
     "test-env": "npx cypress open --config-file test.config.js",
