@@ -3,16 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "RunSpecificTest:TestName": "npx cypress run --spec cypress/e2e/CypressTestCases_STL/AT02_NavWebsite.cy.js --browser chrome",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prod-env":"npx cypress open --config-file prod.config.js",
-    "test-env":"npx cypress open --config-file test.config.js",
+    "RunSpecificTest:TestName": "npx cypress run --headed --spec cypress/e2e/CypressTestCases_STL/AT02_NavWebsite.cy.js --browser chrome",
+    "RunInChrome:TestName": "npx cypress run --headed --spec cypress/e2e/CypressTestCases_STL/AT02_NavWebsite.cy.js --browser chrome",
+        "test": "echo \"Error: no test specified\" && exit 1",
+    "prod-env": "npx cypress open --config-file prod.config.js",
+    "test-env": "npx cypress open --config-file test.config.js",
     "video-run": "npx cypress run --spec cypress/e2e/CypressTestCases_STL/AT08_CallUrlFromCypressConfig.cy.js --config-file prod.config.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.7.0"
+    "cypress": "^13.7.2"
   },
   "dependencies": {
     "aggregate-error": "^3.1.0",
