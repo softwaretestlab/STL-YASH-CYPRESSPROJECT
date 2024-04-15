@@ -7,5 +7,6 @@ describe('NavWebsite', () => {
 
     it('Visits the HN website', () => {
         cy.visit('https://www.harveynorman.com.au/')
+
 })
   })
